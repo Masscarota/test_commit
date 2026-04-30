@@ -199,20 +199,26 @@ body{
     border-radius: 10px;
 }
 
-.nav_side{
-    position: absolute;
-    position: fixed;
-    top: 90px;
-    border: solid;
+.page_wrapper {
+    display: flex;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.nav_side {
+    width: 220px;
+    min-width: 220px;
     background-color: rgb(162, 170, 113);
-    max-width: 300px;
-    line-height: 2;
-    margin-right: 0px;
-    height: 100%;
+    padding: 16px;
     font-size: 14px;
+    line-height: 2;
+    position: sticky;
+    top: 90px;
+}
 
-
-    
+.contenu {
+    flex: 1;
+    padding: 20px;
 }
 .contact_titre {
     position: relative;
