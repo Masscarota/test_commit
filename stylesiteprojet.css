@@ -199,20 +199,23 @@ body{
     border-radius: 10px;
 }
 
-.nav_side{
-    position: absolute;
+.nav_side {
     position: fixed;
-    top: 90px;
+    top: 95px;
+    left: 0;
     border: solid;
     background-color: rgb(162, 170, 113);
-    max-width: 300px;
-    line-height: 2;
-    margin-right: 0px;
-    height: 100%;
+    width: 220px;
+    height: calc(100% - 90px);
     font-size: 14px;
+    line-height: 2;
+    overflow-y: auto;
+    z-index: 1;
+}
 
-
-    
+.contenu {
+    margin-left: 240px;
+    padding: 0 20px;
 }
 .contact_titre {
     position: relative;
