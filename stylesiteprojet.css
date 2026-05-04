@@ -63,8 +63,7 @@ body{
     border-radius: 50%;
     width: 180px;
     height: auto;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    
 }
 
 .texte_personnage {
@@ -213,21 +212,17 @@ body{
 .nav_side {
     position: fixed;
     top: 95px;
-    left: 0;
+    
+    height: 600px;
+    width: 210px;
+    background-color: rgb(141, 148, 94);
+    line-height: 1.5;
     border: solid;
-    background-color: rgb(162, 170, 113);
-    width: 220px;
-    height: calc(100% - 90px);
-    font-size: 14px;
-    line-height: 2;
     overflow-y: auto;
     z-index: 1;
+    padding: 10px;
 }
 
-.contenu {
-    margin-left: 50px;
-    margin-right: 50px;
-}
 .contact_titre {
     position: relative;
     top: 30px;
