@@ -136,9 +136,8 @@ body{
 .footer_lien_auteur {
     position: relative;
     margin: auto;
-    font-size: 12px;
+    font-size: 16px;
     color: rgb(90, 73, 10);
-    text-decoration: none;
     
 }
 
@@ -191,6 +190,10 @@ body{
     margin-right: 50px;
 }
 
+.contenu_histoire{
+    margin-right: 240px;
+}
+
 .citations_section {
     background-color: rgba(152, 158, 95, 0.2);
     border-radius: 20px;
@@ -208,15 +211,15 @@ body{
     margin: 40px 0px;
 }
 .video_container video {
-    height: 500px;
-    width: 1400px;
+    height: 400px;
+    width: 1200px;
     border-radius: 10px;
 }
 
 .nav_side {
     position: fixed;
     top: 95px;
-    
+    right: 0px;
     height: 600px;
     width: 210px;
     background-color: rgb(141, 148, 94);
