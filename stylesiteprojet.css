@@ -215,10 +215,9 @@ body{
     font-weight: bold;
     margin: 40px 0px;
 }
-.video_container video {
+.video_container{
     height: 400px;
-    width: 1100px;
-    border-radius: 10px;
+    width: auto;
 }
 
 .nav_side {
