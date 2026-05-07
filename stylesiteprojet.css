@@ -10,12 +10,14 @@ body{
     height: 60px;
     display: flex;
     align-items: center;
-    gap: 45px;
-    padding: 0 40px;
+    justify-content: center;
+    gap: 40px;
     position: sticky;
     top: 20px;
     z-index: 2;
-    margin: auto;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%
 }
 
 .lien_nav {
