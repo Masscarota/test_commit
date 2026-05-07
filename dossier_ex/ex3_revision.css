@@ -1,0 +1,31 @@
+body {
+    padding: 20px;
+}
+
+.groid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.carte {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carte-img {
+    height: 30px;
+    width: 102%;
+}
+
+.carte-body {
+    padding: 10px;
+}
+
+.a { background-color: lightblue; }
+.b { background-color: lightgreen; }
+.c { background-color: lightyellow; }
+.d { background-color: lightsalmon; }
+.e { background-color: plum; }
+.f { background-color: lightcoral; }

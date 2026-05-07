@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* sélecteur élément */
+body {
+    font-family: sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* sélecteur élément */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+/* sélecteur classe */
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #378ADD;
+}
+
+/* sélecteur élément */
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* pseudo-classe */
+nav a:hover {
+    color: #378ADD;
+}
+
+/* sélecteur id */
+#presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    gap: 16px;
+}
+
+#presentation img {
+    border-radius: 50%;
+    border: 3px solid #378ADD;
+    width: 120px;
+    height: 120px;
+}
+
+#presentation h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#presentation p {
+    font-size: 16px;
+    color: #666;
+    max-width: 500px;
+}
+
+/* sélecteur classe */
+.bouton {
+    text-decoration: none;
+    background-color: #378ADD;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bouton:hover {
+    background-color: #185FA5;
+}
+
+/* sélecteur id */
+#projets {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#projets h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* sélecteur classe */
+.grille {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.carte {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.carte h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.carte p {
+    font-size: 14px;
+    color: #666;
+}
+
+.badge {
+    font-size: 12px;
+    background-color: #E6F1FB;
+    color: #185FA5;
+    padding: 4px 10px;
+    border-radius: 99px;
+    width: fit-content;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: #999;
+    border-top: 1px solid lightgray;
+    margin-top: 40px;
+}
