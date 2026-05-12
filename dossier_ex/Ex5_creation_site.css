@@ -18,8 +18,13 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
+    border: solid;
 }
 
+.grid{
+    display: flex;
+    gap: 30px;
+}
 .nav_lien{
     display: flex;
     gap: 60px;
