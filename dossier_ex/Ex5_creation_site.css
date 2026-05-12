@@ -1,0 +1,54 @@
+body{
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header_bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: double;
+    background-color: rgb(186, 233, 233);
+    justify-content: space-between;
+}
+
+.article{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_lien{
+    display: flex;
+    gap: 60px;
+    text-decoration: none;
+    
+}
+
+.lien_head{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.lien_head:hover{
+    opacity: 0.5
+}
+
+.logo_restau{
+    width: 50px;
+    margin: 10px;
+}
+
+footer{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+    justify-content: space-between;
+    border: double;
+    background-color: rgb(186, 233, 233);
+}
+
